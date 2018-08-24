@@ -1,7 +1,9 @@
 {
   "name": "chunk-meta-webpack-plugin",
   "version": "0.0.1",
-  "description": "",
+  "description": "Inject information about webpack chunk",
+  "author": "Jaunius Eitmantis",
+  "license": "MIT",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -11,11 +13,18 @@
     "prebuild": "npm run clean",
     "clean": "del-cli dist"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "del-cli": "^1.1.0"
-  }
+  },
+  "keywords": [
+    "chunk",
+    "hash",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "bugs": "https://github.com/jauniuse/chunk-meta-webpack-plugin/issues",
+  "homepage": "https://github.com/jauniuse/chunk-meta-webpack-plugin",
+  "repository": "https://github.com/jauniuse/chunk-meta-webpack-plugin.git"
 }
