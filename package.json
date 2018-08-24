@@ -1,6 +1,6 @@
 {
   "name": "chunk-meta-webpack-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Inject information about webpack chunk",
   "author": "Jaunius Eitmantis",
   "license": "MIT",
