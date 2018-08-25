@@ -4,6 +4,12 @@
 npm i -D chunk-meta-webpack-plugin
 ```
 
+<h2 align="center">Test</h2>
+
+```bash
+npm run test
+```
+
 <h2 align="center">Usage</h2>
 
 **webpack.config.js**
