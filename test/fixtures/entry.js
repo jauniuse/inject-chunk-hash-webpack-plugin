@@ -1,7 +1,5 @@
 function test() {
-    const name = '/* webpack-chunk-name */';
-    const hash = '/* webpack-chunk-hash */';
-    return {name, hash};
+    return [/* inject-webpack-chunk-hash */];
 }
 
 module.exports = test;

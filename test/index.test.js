@@ -7,7 +7,7 @@ test('injects chunk name and hash', (done) => {
         const chunkHash = chunk.renderedHash;
         const code = stats.compilation.assets[chunkFileName].source();
 
-        expect(code).toContain(`{name:"fooo",hash:"${chunkHash}"}`)
+        expect(code).toContain(`["${chunkHash}"]`)
         done();
     });
 });
