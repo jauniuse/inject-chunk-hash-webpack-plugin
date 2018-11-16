@@ -4,7 +4,10 @@ import InjectChunkMetaPlugin from '../lib/index';
 
 const compiler = webpack({
     cache: false,
-    entry: { fooo: `${__dirname}/fixtures/entry.js` },
+    entry: {
+        fooo: `${__dirname}/fixtures/entry.js`,
+        fooo2: `${__dirname}/fixtures/entry2.js`,
+    },
     output: {
         path: `${__dirname}/dist`,
         filename: '[name].[chunkhash].js',
